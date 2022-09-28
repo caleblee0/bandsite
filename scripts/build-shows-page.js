@@ -1,3 +1,5 @@
+const parent2 = document.getElementById('shows__container');
+
 showsArray = [{
     Date: 'Mon Sept 06 2021',
     Venue: 'Ronald Lane',
@@ -24,3 +26,22 @@ showsArray = [{
     Location: 'San Francisco, CA'    
 }
 ];
+
+function displayShows() {
+    for (i=showsArray.length-1; i >= 0; i--) {
+    let createLi = document.createElement('li');
+    let createH3 = document.createElement('h3');
+    let createP = document.createElement('p');
+
+    createH3.innerText = showsArray[i].Date;
+    createP.innerText = showsArray[i].Venue;
+    createP.innerText = showsArray[i].Location;
+
+    parent.appendChild(createLi);
+    createLi.appendChild(createH3);
+    createLi.appendChild(createP);
+    createLi.appendChild(createP);
+};
+};
+
+displayShows();
