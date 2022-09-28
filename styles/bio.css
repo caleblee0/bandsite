@@ -256,4 +256,8 @@ body {
   width: 30px;
   height: 30px;
   padding-right: 20px;
+}
+
+#commentSection {
+  list-style: none;
 }/*# sourceMappingURL=bio.css.map */
