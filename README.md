@@ -1,2 +1,2 @@
 # bandsite
-BrainStaiton BandSite
+BrainStation BandSite
