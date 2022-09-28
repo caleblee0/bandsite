@@ -260,4 +260,32 @@ body {
 
 #commentSection {
   list-style: none;
+}
+
+label,
+input,
+button {
+  display: block;
+  margin-left: 2rem;
+}
+
+#nameBox {
+  padding: 0 10px 10px 0;
+}
+
+#commentBox {
+  padding: 0 10px 10px 0;
+  line-height: 28px;
+}
+
+button {
+  background-color: #323232;
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+button:hover {
+  transition-duration: 0.5s;
+  background-color: black;
 }/*# sourceMappingURL=bio.css.map */
